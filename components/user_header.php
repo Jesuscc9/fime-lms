@@ -41,20 +41,20 @@ if (isset($message)) {
 				<?= $fetch_profile['name']; ?>
 			</h3>
 			<span>student</span>
-			<a href="profile.php" class="btn">view profile</a>
+			<a href="profile.php" class="btn">Ver perfil</a>
 			<div class="flex-btn">
-				<a href="login.php" class="option-btn">login</a>
-				<a href="register.php" class="option-btn">register</a>
+				<a href="login.php" class="option-btn">Iniciar sesión</a>
+				<a href="register.php" class="option-btn">Crear cuenta</a>
 			</div>
 			<a href="components/user_logout.php" onclick="return confirm('logout from this website?');"
-				class="delete-btn">logout</a>
+				class="delete-btn">Cerrar sesión</a>
 			<?php
 			} else {
 			?>
-			<h3>please login or register</h3>
+			<h3>Inicia sesión o crea una cuenta nueva</h3>
 			<div class="flex-btn">
-				<a href="login.php" class="option-btn">login</a>
-				<a href="register.php" class="option-btn">register</a>
+				<a href="login.php" class="option-btn">Iniciar sesiópn</a>
+				<a href="register.php" class="option-btn">Registrarse</a>
 			</div>
 			<?php
 			}
@@ -86,15 +86,18 @@ if (isset($message)) {
 		<h3>
 			<?= $fetch_profile['name']; ?>
 		</h3>
-		<span>student</span>
-		<a href="profile.php" class="btn">view profile</a>
+		<span>Estudiante</span>
+		<a href="profile.php" class="btn">Ver perfi
+
+		</a>
 		<?php
 		} else {
 		?>
-		<h3>please login or register</h3>
+		<h3>Por favor, inicia sesión o regístrate</h3>
 		<div class="flex-btn" style="padding-top: .5rem;">
-			<a href="login.php" class="option-btn">login</a>
-			<a href="register.php" class="option-btn">register</a>
+			<a href="login.php" class="option-btn">Iniciar sesión</a>
+			<a href="register.php" class="option-btn">Registarse
+			</a>
 		</div>
 		<?php
 		}
