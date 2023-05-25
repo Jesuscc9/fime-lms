@@ -18,7 +18,7 @@ if (isset($message)) {
 		<a href="home.php" class="logo">FIME LMS</a>
 
 		<form action="search_course.php" method="post" class="search-form">
-			<input type="text" name="search_course" placeholder="search courses..." required maxlength="100">
+			<input type="text" name="search_course" placeholder="Buscar cursos..." required maxlength="100">
 			<button type="submit" class="fas fa-search" name="search_course_btn"></button>
 		</form>
 
